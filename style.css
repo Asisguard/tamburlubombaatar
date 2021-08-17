@@ -1,0 +1,56 @@
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  
+.tekrar{
+    color: white;
+    animation: type 5s steps(35);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: monospace;
+    border-right: 2px solid black;  
+    width: 35ch;
+    
+
+}
+
+@keyframes type {
+    0%{
+        width: 0ch;
+        
+    }
+    100%{
+      
+        width: 35ch;
+    }
+    
+}
+.tekrar2{
+  
+  margin-left: 10px;
+  color: white;
+  animation: type 5s steps(51);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Quicksand', sans-serif;
+  border-right: 2px solid black;
+  width: 51ch;
+  
+
+}
+
+
+
+@keyframes type {
+  0%{
+      width: 0ch;
+  }
+  100%{
+      width: 51ch;
+  }
+  
+}
+
+.div1{
+  background-color: #060A1A;
+
+}
